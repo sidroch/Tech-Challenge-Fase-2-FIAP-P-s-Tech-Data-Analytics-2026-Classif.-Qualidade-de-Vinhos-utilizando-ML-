@@ -85,15 +85,11 @@ Os modelos de boosting (XGBoost e LightGBM) apresentaram desempenho superior aos
  •	Sulfatos e citric acid contribuem positivamente em alguns casos.
 
 ## 9. Tecnologias Utilizadas
- •	Python
- •	Pandas, NumPy
- •	Matplotlib, Seaborn
- •	Scikit Learn
- •	XGBoost
- •	LightGBM
- •	SHAP
- •	Google Colab
-
-
-└── requirements.txt
-
+ - •	Python
+ - •	Pandas, NumPy
+ - •	Matplotlib, Seaborn
+ - •	Scikit Learn
+ - •	XGBoost
+ - •	LightGBM
+ - •	SHAP
+ - •	Google Colab
