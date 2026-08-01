@@ -1,31 +1,31 @@
 # Tech-Challenge-Fase-2-FIAP-P-s-Tech-Data-Analytics-2026
-# Classificação da Qualidade de Vinhos com Machine Learning
+## Classificação da Qualidade de Vinhos com Machine Learning
 Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes de classificar a qualidade de vinhos tintos com base em suas propriedades físico químicas. O dataset utilizado (WineQT.csv) contém variáveis como acidez, teor alcoólico, pH, densidade, dióxido de enxofre, entre outras.
 
 # Grupo 47
-Adriane de Souza Lino – euadrianee@gmail.com 
-Barbara Rodrigues Gusmão Rebelo – barbaragusmao906@gmail.com 
-Bruna Alessandra Belotto – bruna.belotto@gmail.com 
-Sidnei Rocha – sidroch@gmail.com
+- Adriane de Souza Lino – euadrianee@gmail.com 
+- Barbara Rodrigues Gusmão Rebelo – barbaragusmao906@gmail.com 
+- Bruna Alessandra Belotto – bruna.belotto@gmail.com 
+- Sidnei Rocha – sidroch@gmail.com
 
- 1. Dataset
+1. Dataset
 O arquivo contém 13 variáveis químicas e 1 variável alvo (quality), além de um identificador (Id). Exemplos de colunas:
-1.	fixed acidity
-2.	volatile acidity
-3.	citric acid
-4.	residual sugar
-5.	chlorides
-6.	free sulfur dioxide
-7.	total sulfur dioxide
-8.	density
-9.	pH
-10.	sulphates
-11.	alcohol
-12.	quality
-13.	Id
+- fixed acidity
+- volatile acidity
+- citric acid
+- residual sugar
+-	chlorides
+-	free sulfur dioxide
+-	total sulfur dioxide
+-	density
+-	pH
+-	sulphates
+-	alcohol
+-	quality
+-	Id
 A variável quality varia de 3 a 8, representando a avaliação sensorial do vinho.
 
- 2. Objetivo do Projeto
+2. Objetivo do Projeto
 Transformar o problema em uma classificação binária, onde:
 •	1 → Alta qualidade (quality ≥ 7)
 •	0 → Baixa/média qualidade (quality < 7)
