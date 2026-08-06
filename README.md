@@ -81,13 +81,6 @@ Etapas realizadas:
 ### Modelos clássicos
 - Logistic Regression (baseline)  
 - Random Forest Classifier  
-- Support Vector Machine (SVC)
-
-### Modelos avançados
-- XGBoost  
-- LightGBM  
-
-Esses modelos foram escolhidos para comparar desempenho entre abordagens lineares, não lineares e algoritmos de gradient boosting.
 
 ---
 
@@ -97,22 +90,11 @@ As métricas utilizadas incluem:
 - Acurácia  
 - Precision, Recall e F1‑score  
 - Matriz de confusão  
-- ROC AUC (quando aplicável)
 
-Os modelos de boosting (XGBoost e LightGBM) apresentaram desempenho superior aos modelos clássicos.
 
 ---
 
-## 7. Interpretabilidade com SHAP
-
-Para entender o impacto de cada variável na previsão:
-- SHAP TreeExplainer aplicado ao modelo XGBoost  
-- Summary Plot para importância global  
-- Force Plot para explicações individuais  
-
----
-
-## 8. Principais Conclusões
+## 7. Principais Conclusões
 
 - **Álcool** é o maior preditor de qualidade  
 - **Acidez volátil** reduz a probabilidade de alta qualidade  
@@ -120,13 +102,10 @@ Para entender o impacto de cada variável na previsão:
 
 ---
 
-## 9. Tecnologias Utilizadas
+## 8. Tecnologias Utilizadas
 
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit‑Learn  
-- XGBoost  
-- LightGBM  
-- SHAP  
-- Google Colab  
+- Python 3
+- Pandas e NumPy para manipulação e análise de dados
+- Matplotlib e Seaborn para visualizações
+- Scikit‑Learn para pré‑processamento, modelagem e métricas
+- Google Colab como ambiente de desenvolvimento (não incluído no requirements)
